@@ -4,8 +4,6 @@ body {
     width: 85%; margin-left: auto; margin-right: auto;
     background-color: rgb(201, 201, 201); 
     font-size: 15px;  
-    align-self: center; 
-    align-content: center;
     text-align: center;
 }
 
@@ -44,8 +42,9 @@ h4
 h5
 
 ol,ul,dl,li {
+    display: inline-block;
     text-align: left;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
