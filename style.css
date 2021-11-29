@@ -39,12 +39,10 @@ h3 {
 }
 
 h4
-h5
+h5 {
+    text-align: center;
+}
 
 ol,ul,dl,li {
-    display: inline-block;
     text-align: left;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
 }
