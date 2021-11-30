@@ -1,22 +1,57 @@
 @charset "UTF-8";
 
 body {
-    width: 85%; margin-left: auto; margin-right: auto;
-    background-image: linear-gradient(to bottom, silver, white, rgb(121, 121, 121));
-    background-attachment: fixed; 
-    font-size: 15px;  
+    margin: auto;
+    background-image: linear-gradient(to bottom, silver, white 50%, rgb(121, 121, 121));
+    background-color: snow;
+    background-attachment: fixed;   
     text-align: center;
-    height: 100%;
-    width: 80%;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.342);
 }
 
 header {
-    color: brown; 
+    color: rgb(255, 255, 255); 
     font-family: courier;
 }
 
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 82, 82);
+    text-decoration: underline;
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 25px rgb(90, 90, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    width: 90%;
+    text-shadow: 2px 2px 10px silver;
+}
+
+h4
+h5 {
+    text-align: center;
+}
+
 p {
-    width: 60%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     color: rgb(0, 0, 0); 
@@ -24,26 +59,16 @@ p {
     font-family: verdana;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(82, 82, 82);
-    text-decoration: underline;
+.main_pic {
+    border-radius: 2%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.274);
 }
 
-h2 {
-    color: rgb(70, 70, 70);
-    font-style: italic;
-}
-
-h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-style: italic;
-}
-
-h4
-h5 {
-    text-align: center;
+.ol_sumario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: auto;
+    
 }
 
 ol,ul,dl,li {
@@ -54,12 +79,7 @@ ol,ul,dl,li {
     color: white;
     text-align: center;
     background-color: rgb(117, 117, 117);
-    width: 100%;
+    width: 600px;
 }
 
 a {color: white;}
-
-.ol_sumario {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 60%;
-}
