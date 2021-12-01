@@ -96,7 +96,8 @@ ol,ul,dl,li {
     width: 600px;
     margin-top: 12px;
     margin-bottom: 12px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 a {color: white;}
